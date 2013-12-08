@@ -15,7 +15,7 @@ black 	#000000
    ========================================================================== */
 body {
 	background-color: #bac0c5;
-	max-width: 1200px; 
+	max-width: 1500px; 
 	font-size: 1.000em; /*12px*/
   	background-color:#FFFFFF;
   	border:3px solid #E6E6E6;
@@ -42,9 +42,6 @@ header{
 	color: #336633;
 	font-weight: bold;
 	Top: 40px;
-}
-img{
-	 float: left;
 }
 p {
 	color: #000000;
@@ -84,7 +81,7 @@ a:active {
 }
 h1 {
 	font-family: 'Libre Baskerville', serif;
-	color: #000000;
+	color: #ffffff;
 	text-align: left;
 }
 h2 {
@@ -104,14 +101,6 @@ h3 {
 	background-color: #ffffff;
 	clear:both;
 }
-#two {
-	max-width: 32.777777777778%;
-	background-color: #ffffff;
-}
-#three {
-	background-color: #ffffff;
-	clear: both;
-}
 #four {
 	float: left;
 	background-color: #ffffff;
@@ -128,26 +117,6 @@ h3 {
 	float: left;
 	background-color: #ffffff;
 	clear: both;
-}
-#eight {
-	float: left;
-	background-color: #ffffff;
-	max-width: 50%; 
-}
-#nine{
-	float: left;
-	max-width: 50%; 
-	background-color: #ffffff; 
-}
-#Event{
-	float: left;
-	max-width: 100%; 
-	background-color: #ffffff; 
-}
-#form{
-	float: left;
-	max-width: 100%; 
-	background-color: #ffffff; 
 }
 ul {
 	background-color: #336633;
@@ -180,35 +149,3 @@ footer {
 	background: #ffffff;
 	max-width: 100%;
 }
-/* =============================================================================
-   Media Queries
-   ========================================================================== */
-
-/* Tablet Portrait size to Base 996px */
-@media only screen and (min-width: 768px) and (max-width: 995px) {}
-
-/* All Mobile Sizes */
-@media only screen and (max-width: 767px) {}
-
-/* Mobile Landscape Size to Tablet Portrait */
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
-
-/* Mobile Portrait Size to Mobile Landscape Size */
-@media only screen and (max-width: 479px) {}
-
-
-/* =============================================================================
-   Font-Face
-   ========================================================================== */
-/* This is the proper syntax for an @font-face file
-
-/* @font-face {
-font-family: 'FontName';
-src: url('../fonts/FontName.eot');
-src: url('../fonts/FontName.eot?iefix') format('embedded-opentype'),
-url('../fonts/FontName.woff') format('woff'),
-url('../fonts/FontName.ttf') format('truetype'),
-url('../fonts/FontName.svg#FontName') format('svg');
-font-weight: normal;
-font-style: normal; }
-*/
